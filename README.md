@@ -5,7 +5,7 @@ Spring4Shell 漏洞本地复现过程
 ## 环境准备
 * 环境 docker、docker-compose
 
-* mvn 打包，生成 ``./target/ROOT.war``
+* mvn 打包，生成  ``./target/ROOT.war`` 
 ```shell
 mvn package
 ```
@@ -55,7 +55,7 @@ got response: root
 
 ``` 
 
-* docker容易中可以看到在tomcat应用服务中创建了一个jsp文件
+* docker容器中可以看到在tomcat应用服务中创建了一个jsp文件
 
 ![spring-4-shell-web](./screenshots/spring-4-shell-docker.png)
 
