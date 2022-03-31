@@ -1,0 +1,6 @@
+tomcat:
+  image: tomcat:9.0
+  volumes:
+    - ./target/ROOT.war:/usr/local/tomcat/webapps/ROOT.war
+  ports:
+    - "8080:8080"
